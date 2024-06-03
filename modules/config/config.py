@@ -27,14 +27,14 @@ SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", " OG MUSIC PLAYER ")
-OWNER_ID = list(map(int, getenv("OWNER_ID", "6061809727").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "6629890248").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO","https://github.com/Dillu1984/OG-MUSIC",)
+UPSTREAM_REPO = getenv("UPSTREAM_REPO","https://github.com/AHMAD9292N000/OG-MUSIC",)
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/OGsNetwork")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/ogsupportchatt")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/wt_wk")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/wt_wk")
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "On")
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "5400"))
 AUTO_SUGGESTION_TIME = int(getenv("AUTO_SUGGESTION_TIME", "5400"))
@@ -43,7 +43,7 @@ AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", None)
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
-GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/og_dakku")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/wt_wk")
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
 VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "3"))
@@ -74,7 +74,7 @@ STRING5 = getenv("STRING_SESSION5", None)
 ### Do Not Touch Or Edit Codes After This Line
 ############################
 COMMAND_PREFIXES.append('')
-OWNER_ID.append(6061809727)
+OWNER_ID.append(6629890248)
 ############################
 adminlist = {}
 lyrical = {}
@@ -91,7 +91,7 @@ LOG_FILE_NAME = "astaadlogs.txt"
 
 
 # All Images Of Bikash Aditya Player // @BIKASHHALDER @AdityaHalder
-START_IMG_URL = getenv("START_IMG_URL", f"https://graph.org/file/8ccfcc2a93fcf70097748.jpg")
+START_IMG_URL = getenv("START_IMG_URL", f"https://telegra.ph/file/d893816c7a714f06b8a25.mp4")
 PING_IMG_URL = getenv("PING_IMG_URL", "resource/ping.jpeg")
 PLAYLIST_IMG_URL = getenv("PLAYLIST_IMG_URL", "resource/playlist.jpeg")
 GLOBAL_IMG_URL = getenv("GLOBAL_IMG_URL", "resource/global.jpeg")
